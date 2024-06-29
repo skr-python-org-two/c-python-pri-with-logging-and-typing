@@ -41,9 +41,9 @@ jobs:
       - name: List installedDependencies With Their Installed Path
         run: |
           pip list -v
-      - name: List environment Variables
+      - name: Run ui-log based  python code
         run: |
-          python ./me/personal/functs/run_code_ui_log.py
+          python ./me/personal/logging-examples/run_code_ui_log.py
   run:
     needs: run_ui_log
     environment: ${{ inputs.environment }}
@@ -64,10 +64,10 @@ jobs:
       - name: List installedDependencies With Their Installed Path
         run: |
           pip list -v
-      - name: runcode
+      - name: Run file-log based python code
         run: |
           ls /home/runner/work/c-python-pri-with-logging-and-typing/c-python-pri-with-logging-and-typing/
-          python ./me/personal/functs/run_code_file_log.py
+          python ./me/personal/logging-examples/run_code_file_log.py
           
           
 
