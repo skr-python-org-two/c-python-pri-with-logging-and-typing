@@ -66,6 +66,7 @@ jobs:
           pip list -v
       - name: runcode
         run: |
+          ls /home/runner/work/c-python-pri-with-logging-and-typing/c-python-pri-with-logging-and-typing/
           python ./me/personal/functs/run_code_file_log.py
           
           
