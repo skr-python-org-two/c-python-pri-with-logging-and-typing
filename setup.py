@@ -55,11 +55,11 @@ long_description = "test project "
 
 
 setuptools.setup(
-    name="c-python-prj-with-loggingand-typing",
+    name="c-python-prj-with-logging-and-typing",
     version="1.0.0",
     author="ABC Team",
     author_email = "sekher.talupula@gmail.com,sekhar.jagadeesh9@gmail.com",
-    description = "contains detailed setup.py file and read env files functions",
+    description = "contains code for logging and typing ",
     long_description = long_description,
     long_description_content_type = "text/markdown",
     packages = setuptools.find_packages(exclude=["test_*","**/test/*"]),
@@ -77,7 +77,4 @@ setuptools.setup(
     }
 )
 
-
-os.environ["PROJ_BASE_DIR"] = str(current_dir)
-print(f"current_dir value is :::: {current_dir}")
 
