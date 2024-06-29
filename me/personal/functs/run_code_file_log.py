@@ -3,7 +3,7 @@ import os
 from me.personal.constant import LOG_FORMAT
 
 
-logging.basicConfig(filename="../../logs/newfile.log" , format = LOG_FORMAT , level = logging.WARN , filemode="w" )
+logging.basicConfig(filename="../../../logs/newfile.log" , format = LOG_FORMAT , level = logging.WARN , filemode="w" )
 logger = logging.getLogger(__name__)
 
 
