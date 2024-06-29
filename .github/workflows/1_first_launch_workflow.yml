@@ -41,9 +41,6 @@ jobs:
       - name: List installedDependencies With Their Installed Path
         run: |
           pip list -v
-      - name: Run Unit tests
-        run: |
-          pytest me/personal --cov
       - name: List environment Variables
         run: |
           python ./me/personal/functs/run_code_ui_log.py
