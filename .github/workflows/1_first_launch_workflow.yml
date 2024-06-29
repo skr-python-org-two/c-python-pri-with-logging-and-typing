@@ -67,7 +67,7 @@ jobs:
       - name: Run file based python code
         run: |
           ls /home/runner/work/c-python-pri-with-logging-and-typing/c-python-pri-with-logging-and-typing/
-          python ./me/personal/log-examples/run_code_file_log.py
+          python ./me/personal/logging-examples/run_code_file_log.py
           
           
 
