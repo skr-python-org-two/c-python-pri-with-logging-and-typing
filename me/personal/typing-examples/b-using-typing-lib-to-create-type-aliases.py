@@ -11,6 +11,8 @@ def typing_on_type_aliases():
     IntOrString = Union[int, str]
     data: IntOrString = 42  # Could also be a string
     print("data value is :::: {0} {1}".format(data , type(data)))
+    data_two: int | str = "sekhar"
+    print("data value is :::: {0} {1}".format(data_two , type(data_two)))
 
     # For a dictionary with string keys and values that are either integers or floats
     ValueDict = Dict[str, Union[int, float]]
