@@ -113,7 +113,6 @@ print(fun_with_union_two(25))
 print(fun_with_union_two("sekhar"))
 
 
-
 """
     Function with Any return type
 """
