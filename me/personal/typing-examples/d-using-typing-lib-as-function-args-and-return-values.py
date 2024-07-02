@@ -91,7 +91,7 @@ def fun_with_dict(age_map: Dict[str , int]) -> Dict[str , int]:
 
 
 """
-    Function  taking Union and returning Union return type . Union or | can be used interchangebly
+    Function  taking Union and returning Union return type
 """
 def fun_with_union(arg_one: Union[str , int]) -> Union[str , int]:
     if type(arg_one) is str:
@@ -111,7 +111,6 @@ def fun_with_union_two(arg_one: str | int) -> str | int:
 
 print(fun_with_union_two(25))
 print(fun_with_union_two("sekhar"))
-
 
 
 """
